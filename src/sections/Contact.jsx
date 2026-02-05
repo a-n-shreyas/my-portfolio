@@ -64,67 +64,22 @@ const Contact = () => {
         <div className="flex flex-col items-start w-full gap-5 mb-10">
           <h2 className="text-heading">Let's Talk</h2>
           <p className="font-normal text-neutral-400">
-            Whether you're loking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help
+            I’m currently exploring full-time software engineering opportunities where I can take ownership of features, improve system reliability, and continue developing as an engineer.
           </p>
         </div>
-        <form className="w-full" onSubmit={handleSubmit}>
-          <div className="mb-5">
-            <label htmlFor="name" className="feild-label">
-              Full Name
-            </label>
-            <input
-              id="name"
-              name="name"
-              type="text"
-              className="field-input field-input-focus"
-              placeholder="John Doe"
-              autoComplete="name"
-              value={formData.name}
-              onChange={handleChange}
-              required
-            />
-          </div>
-          <div className="mb-5">
-            <label htmlFor="email" className="feild-label">
-              Email
-            </label>
-            <input
-              id="email"
-              name="email"
-              type="email"
-              className="field-input field-input-focus"
-              placeholder="JohnDoe@email.com"
-              autoComplete="email"
-              value={formData.email}
-              onChange={handleChange}
-              required
-            />
-          </div>
-          <div className="mb-5">
-            <label htmlFor="message" className="feild-label">
-              Message
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              type="text"
-              rows="4"
-              className="field-input field-input-focus"
-              placeholder="Share your thoughts..."
-              autoComplete="message"
-              value={formData.message}
-              onChange={handleChange}
-              required
-            />
-          </div>
+        <a
+          href="/resume/Shreyas_Annavati_Resume.pdf"
+          download
+          className="w-full"
+        >
           <button
-            type="submit"
+            type="button"
             className="w-full px-1 py-3 text-lg text-center rounded-md cursor-pointer bg-radial from-lavender to-royal hover-animation"
           >
-            {!isLoading ? "Send" : "Sending..."}
+            Download Resume
           </button>
-        </form>
+        </a>
+
       </div>
     </section>
   );

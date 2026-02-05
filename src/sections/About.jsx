@@ -19,8 +19,7 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I'm Shreyas Annavati</p>
             <p className="subtext">
-              Over the last 4 years, I developed my frontend and backend dev
-              skills to deliver dynamic and software and web applications.
+              Over the past few years, I’ve developed strong frontend and backend engineering skills to build reliable, scalable web applications.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
@@ -34,46 +33,34 @@ const About = () => {
             <p className="flex items-end text-5xl text-gray-500">
               CODE IS CRAFT
             </p>
-            <Card
-              style={{ rotate: "75deg", top: "30%", left: "20%" }}
-              text="GRASP"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-30deg", top: "60%", left: "45%" }}
-              text="SOLID"
-              containerRef={grid2Container}
-            />
+            <Card style={{ rotate: "-45deg", top: "5%", left: "10%" }}
+              image="assets/logos/typescript.png"
+              containerRef={grid2Container} />
             <Card
               style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
-              text="Design Patterns"
+              text="Redux"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "55%", left: "0%" }}
-              text="Design Principles"
+              image="assets/logos/nodejs.png"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "20deg", top: "10%", left: "38%" }}
-              text="SRP"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "30deg", top: "70%", left: "70%" }}
-              image="assets/logos/csharp-pink.png"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-45deg", top: "70%", left: "25%" }}
-              image="assets/logos/dotnet-pink.png"
+              text="REST APIs"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-              image="assets/logos/blazor-pink.png"
+              text="System Design"
               containerRef={grid2Container}
             />
+            <Card style={{ rotate: "30deg", top: "70%", left: "70%" }} image="assets/logos/react.svg" containerRef={grid2Container} />
+            <Card style={{ rotate: "-45deg", top: "70%", left: "25%" }} image="assets/logos/javascript.svg" containerRef={grid2Container} />
+            <Card style={{ rotate: "-45deg", top: "5%", left: "10%" }} image="assets/logos/tailwindcss.svg" containerRef={grid2Container} />
+
+
           </div>
         </div>
         {/* Grid 3 */}
@@ -100,9 +87,9 @@ const About = () => {
         {/* Grid 5 */}
         <div className="grid-default-color grid-5">
           <div className="z-10 w-[50%]">
-            <p className="headText">Teck Stack</p>
+            <p className="headText">Tech Stack</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools taht
+              I specialize in a variety of languages, frameworks, and tools that
               allow me to build robust and scalable applications
             </p>
           </div>
