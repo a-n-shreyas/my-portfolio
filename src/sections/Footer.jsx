@@ -15,7 +15,6 @@ const Footer = () => {
           </a>
         ))}
       </div>
-      <p>© 2025 Ali. All rights reserved.</p>
     </section>
   );
 };
