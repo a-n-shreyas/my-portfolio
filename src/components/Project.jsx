@@ -40,7 +40,7 @@ const Project = ({
           title={title}
           description={description}
           subDescription={subDescription}
-          image={image}
+          //image={image}
           tags={tags}
           href={href}
           closeModal={() => setIsHidden(false)}

@@ -79,7 +79,7 @@ const About = () => {
         <div className="grid-special-color grid-4">
           <div className="flex flex-col items-center justify-center gap-4 size-full">
             <p className="text-center headtext">
-              Do you want to start a project together?
+              Have a role that fits my profile?
             </p>
             <CopyEmailButton />
           </div>

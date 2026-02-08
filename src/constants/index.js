@@ -1,234 +1,72 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "3D Portfolio Website",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "Personal portfolio built to showcase my experience, skills, and projects with an interactive 3D-first UI.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Built a responsive portfolio using React and Vite with a modern component-driven structure.",
+      "Integrated Three.js-based visuals and smooth UI interactions for a premium presentation.",
+      "Implemented sections for experience, projects, and contact with clean, maintainable styling.",
+      "Deployed as a lightweight, fast-loading site suitable for recruiter and hiring manager review.",
     ],
-    href: "",
+    href: "https://github.com/a-n-shreyas",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/Portfolio.png",
     tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "React", path: "/assets/logos/react.svg" },
+      { id: 2, name: "Vite", path: "/assets/logos/vitejs.svg" },
+      { id: 3, name: "Three.js", path: "/assets/logos/threejs.svg" },
+      { id: 4, name: "JavaScript", path: "/assets/logos/javascript.svg" },
     ],
   },
+
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Study Sync",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "A full-stack web application built as part of a hackathon to solve a real-world problem with an end-to-end workflow.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Built the frontend using React with reusable UI components and clean state handling.",
+      "Developed backend APIs for core workflows and integrated them with the UI reliably.",
+      "Implemented validations, error handling, and end-to-end flow testing during rapid iteration.",
+      "Packaged the solution with a clear README and deployable structure for demo and review.",
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    href: "https://github.com/BugBusters101/StudySync",
+    image: "/assets/projects/StudySync.png",
     tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "React", path: "/assets/logos/react.svg" },
+      { id: 2, name: "TypeScript", path: "/assets/logos/typescript.png" },
+      { id: 3, name: "Node.js", path: "/assets/logos/nodejs.png" },
+      { id: 2, name: "Artificial Intelligence", path: "/assets/logos/ai.png" },
     ],
   },
+
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "A Lightweight Transformer-based Approach for Real-Time Anomaly Detection in ICS", // replace with your real project name
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "Machine learning project built during MSc involving transformer-based modeling and evaluation for a real dataset.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Implemented an end-to-end pipeline including preprocessing, training, and evaluation.",
+      "Worked with transformer architectures and experimented with hyperparameters and metrics.",
+      "Tracked results and documented design decisions to support reproducibility.",
+      "Focused on clean project structure and clear reporting of outcomes and limitations.",
     ],
-    href: "",
+    href: "https://github.com/a-n-shreyas/ics-anomaly-detection-transformer",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/MyProject.png", 
     tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      { id: 1, name: "Python", path: "/assets/logos/python.svg" },
+      { id: 2, name: "Artificial Intelligence", path: "/assets/logos/ai.png" },
+      { id: 3, name: "ML", path: "/assets/logos/ML.png" },
+      { id: 4, name: "Git", path: "/assets/logos/git.svg" },
     ],
   },
 ];
 
+
 export const mySocials = [
-  {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
-  },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/shreyas-murthy-60b45b1a9/",
